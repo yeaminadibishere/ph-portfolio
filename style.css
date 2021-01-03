@@ -1,0 +1,33 @@
+/* Here I am Importing Various fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* Style For the Tags (main elements) */
+body {
+    font-family:'Poppins', sans-serif; ;
+}
+
+
+/* Style For Divs */
+
+
+/* Style For Class */
+.highlight-header{
+font-size: 50px;
+color: #FF458E;
+
+}
+.half-width-01{
+
+    width: 40%;
+    float: left;
+    padding-left: 2%;
+    margin-left:  4%;
+}
+.half-width-01 img{
+    width: 100%;
+}
+
+/* Style For IDs */
+
+
+
