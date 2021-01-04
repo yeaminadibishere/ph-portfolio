@@ -8,8 +8,18 @@ body {
 }
 section {
     height: 500px;
+    padding-bottom: 150px;
 }
-
+h1{
+    font-size:  50px;
+}
+h2{
+    font-size: 40px;
+}
+footer {
+    color : #FF458E;
+    text-align: center;
+}
 
 
 /* Style For Class */
@@ -25,6 +35,9 @@ color: #FF458E;
     padding-left: 2%;
     margin-left:  4%;
     margin-top: 2%;
+}
+.highlight-header-2{
+    color:#FF4890;
 }
 
 .half-width-01 img{
@@ -42,8 +55,36 @@ color: #FF458E;
     border-radius:  5px;
     color:  white;
     padding: 10px 20px;
-    
 
+}
+
+.hire-me-info {
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.experience-info{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+}
 /* Style For IDs */
-
-
+#sr-dev{
+    background-color: white;
+    border: 2px ;
+    border-radius: 5px;
+    box-shadow: 10px 10px 40px grey;
+    height: 80%;
+    border-left: 7px solid;
+    border-image:linear-gradient( rgb(255, 0, 157), rgb(233, 68, 178));
+    border-image-slice:1;
+}
+#jr-dev{
+    background-color: white;
+    border: 2px ;
+    border-radius: 5px;
+    box-shadow: 10px 10px 40px grey;
+    height: 80%;
+    border-left: 7px solid;
+    border-image:linear-gradient(rgb(165, 1, 102), rgb(163, 5, 202));
+    border-image-slice:1;
+}
